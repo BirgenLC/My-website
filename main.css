@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+header img {
+  width: 150px;
+}
+header nav a {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  flex: end;
+  text-decoration: none;
+  height: 50px;
+}
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.restaurant-container button {
+  min-width: 20%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.fashion img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+}
+.restaurant-container h3 {
+  background-color: azure;
+  width: max-content;
+  margin: 0px auto;
+  margin-top: -30px;
+  position: relative;
+  z-index: 0;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
